@@ -1,0 +1,131 @@
+/***************************
+	Author: Matthew Densmore
+****************************/
+
+@import url('https://fonts.googleapis.com/css?family=Amiri|Open+Sans:300,700');
+
+/* TYPOGRAPHY */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6, header {
+	font-family: 'Amiri', serif;
+	font-weight: lighter;
+}
+header {
+	font-size: 17px;
+}
+h1 {
+	font-size: 60px;
+	color: #464646;
+	line-height: 46px;
+	margin: 0;
+}
+h3 {
+	font-size: 36px;
+	color: #acacac;
+	line-height: 30px;
+	margin: 30px 0;
+}
+
+blockquote {
+	font-size: 24px;
+}
+
+#contact a {
+	font-size: 24px;
+	line-height: 40px;
+}
+
+/* LINKS */
+a {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+}
+
+.button {
+	border-radius: 6px;
+	background-color: #555555;
+	box-shadow: 0px 2px 0px #252525;
+	color: #FFFFFF;
+	padding: 12px 20px;
+	font-size: 19px;
+}
+
+/* LOGO */
+.logo {
+	border: 6px solid #FFFFFF;
+	border-radius: 6px;
+	width: 75px;
+	margin: -3px 10px 0 -3px;
+	height: auto;
+}
+
+/* SCAFFOLDING */
+main, header {
+	padding: 60px;
+}
+header {
+	padding-bottom: 40px;
+}
+header *:last-child {
+	margin-bottom: 0;
+}
+.col-md-1 {
+	width: 50%;
+	float: left;
+}
+.col-md-2 {
+	
+}
+
+/* HELPERS */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after, .row:after {
+    clear: both;
+}
+
+.sr-only {
+	visibility: hidden;
+	position: absolute;
+	height: 1px;
+	width: 1px;
+}
+
+.pull-right {
+	float: right;
+}
+.pull-left {
+	float: left;
+}
+
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+
+.text-yellow {
+	color: #d7a70e;
+}
+.text-blue {
+	color: #3a87dc;
+}
+.text-ltblue {
+	color: #6eb5e1;
+}
+.text-orange {
+	color: #dd7329;
+}
